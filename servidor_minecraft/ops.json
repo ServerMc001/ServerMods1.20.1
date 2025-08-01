@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "bbb4f303-012d-31f9-871c-81a2529a03d0",
+    "name": "jrmu_ev",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

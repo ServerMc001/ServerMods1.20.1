@@ -665,8 +665,10 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-30 20:59:01 +0000",
       "minecraft:spider": "2025-07-30 20:56:24 +0000",
+      "minecraft:zombified_piglin": "2025-08-01 04:32:26 +0000",
       "minecraft:husk": "2025-07-30 20:46:53 +0000",
       "minecraft:cave_spider": "2025-07-30 21:34:23 +0000",
+      "minecraft:piglin": "2025-08-01 04:27:12 +0000",
       "minecraft:zombie": "2025-07-30 20:28:26 +0000",
       "minecraft:zombie_villager": "2025-07-31 00:29:27 +0000"
     },
@@ -2928,9 +2930,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/silver_tower_shield": {
     "criteria": {
       "has_silver_ingot": "2025-08-01 03:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
     },
     "done": true
   },
@@ -2940,15 +2966,112 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/misc/silver_ingot_to_silver_nugget": {
     "criteria": {
       "has_silver_ingot": "2025-08-01 03:29:37 +0000"
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-08-01 04:26:23 +0000",
+      "minecraft:nether_wastes": "2025-08-01 04:27:26 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-08-01 03:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-08-01 04:33:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-08-01 04:37:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-08-01 04:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
     },
     "done": true
   },
@@ -2958,9 +3081,111 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-08-01 04:33:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-08-01 04:33:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/misc/dragon_ice_spikes": {
     "criteria": {
       "has_item": "2025-08-01 03:29:33 +0000"
+    },
+    "done": true
+  },
+  "netherdungeons:recipes/crafting/polished_netherrack": {
+    "criteria": {
+      "has_items": "2025-08-01 04:33:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "netherdepthsupgrade:main/root": {
+    "criteria": {
+      "entered_nether": "2025-08-01 04:26:20 +0000"
     },
     "done": true
   },
@@ -2970,9 +3195,27 @@
     },
     "done": true
   },
+  "naturalist:recipes/food/cooked_catfish": {
+    "criteria": {
+      "has_catfish": "2025-08-01 04:12:51 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/building_blocks/silver_nugget_to_silver_ingot": {
     "criteria": {
       "has_silver_nugget": "2025-08-01 03:30:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_soul_black_smith": {
+    "criteria": {
+      "blacksmith": "2025-08-01 04:26:56 +0000"
     },
     "done": true
   },
@@ -2982,9 +3225,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-08-01 04:26:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-08-01 03:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
     },
     "done": true
   },
@@ -2994,9 +3255,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "luminous_nether:fungal_plains_advancement": {
+    "criteria": {
+      "fungal_plains_advancement_0": "2025-08-01 04:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/silver_basic_shield": {
     "criteria": {
       "has_silver_ingot": "2025-08-01 03:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-08-01 04:31:45 +0000"
     },
     "done": true
   },
@@ -3006,9 +3327,63 @@
     },
     "done": true
   },
+  "netheroverhaul:bruger_the_burger": {
+    "criteria": {
+      "bruger_the_burger": "2025-08-01 04:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_carpet": {
     "criteria": {
       "has_light_gray_wool": "2025-08-01 03:56:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-01 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-08-01 04:32:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-08-01 04:37:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-08-01 04:33:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-08-01 04:31:45 +0000"
     },
     "done": true
   },
