@@ -565,6 +565,7 @@
       "cooked_cod": "2025-07-30 22:59:04 +0000",
       "pumpkin_pie": "2025-07-30 23:33:34 +0000",
       "bread": "2025-07-29 01:19:11 +0000",
+      "cookie": "2025-08-01 03:07:02 +0000",
       "glow_berries": "2025-07-30 22:04:10 +0000"
     },
     "done": false
@@ -685,6 +686,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-08-01 03:03:35 +0000",
       "minecraft:skeleton": "2025-07-30 21:02:41 +0000",
       "minecraft:spider": "2025-07-30 21:12:53 +0000",
       "minecraft:creeper": "2025-07-30 20:41:53 +0000",
@@ -3140,6 +3142,30 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2025-07-31 03:55:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2025-08-01 03:04:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-08-01 03:03:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-08-01 03:04:16 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "corrupted_eye": "2025-08-01 03:04:16 +0000"
     },
     "done": true
   },
