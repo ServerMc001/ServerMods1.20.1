@@ -1992,3 +1992,674 @@ UNDERGROUND_WATER_CREATURE: 2
 WATER_CREATURE: 2
 WATER_AMBIENT: 4
 MISC: 2]
+[01Aug2025 21:36:09.672] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:36:17.130] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:36:23.235] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jrmu_ev lost connection: Timed out
+[01Aug2025 21:36:23.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev left the game
+[01Aug2025 21:36:39.994] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jrmu_ev[/127.235.228.202:39929] logged in with entity id 6239 at (650.5, 73.0, 300.59918461489326)
+[01Aug2025 21:36:40.000] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player jrmu_ev
+[01Aug2025 21:36:40.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev joined the game
+[01Aug2025 21:36:40.058] [Server thread/INFO] [Jade/]: Syncing config to jrmu_ev (bbb4f303-012d-31f9-871c-81a2529a03d0)
+[01Aug2025 21:36:40.058] [Server thread/ERROR] [recruits/]: Villager recruits could not check for updates!
+[01Aug2025 21:36:40.081] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:36:42.240] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:36:44.881] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:37:01.780] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:37:21.230] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:37:21.481] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:37:52.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev was slain by Dread Hound
+[01Aug2025 21:37:53.835] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:37:54.230] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:38:00.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev was slain by Dread Hound
+[01Aug2025 21:38:10.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jrmu_ev lost connection: Timed out
+[01Aug2025 21:38:10.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev left the game
+[01Aug2025 21:38:28.640] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jrmu_ev[/127.235.228.202:37317] logged in with entity id 6442 at (658.2085309446527, 73.0, 305.4540581517118)
+[01Aug2025 21:38:28.646] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player jrmu_ev
+[01Aug2025 21:38:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev joined the game
+[01Aug2025 21:38:28.694] [Server thread/INFO] [Jade/]: Syncing config to jrmu_ev (bbb4f303-012d-31f9-871c-81a2529a03d0)
+[01Aug2025 21:38:28.695] [Server thread/ERROR] [recruits/]: Villager recruits could not check for updates!
+[01Aug2025 21:38:30.501] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:38:41.758] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:38:44.331] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:38:46.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev was slain by Dread Hound
+[01Aug2025 21:38:58.783] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jrmu_ev lost connection: Timed out
+[01Aug2025 21:38:58.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev left the game
+[01Aug2025 21:39:05.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jrmu_ev[/127.235.228.202:33029] logged in with entity id 6502 at (661.3094208974712, 74.0, 312.4926314698686)
+[01Aug2025 21:39:05.048] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player jrmu_ev
+[01Aug2025 21:39:05.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev joined the game
+[01Aug2025 21:39:05.095] [Server thread/INFO] [Jade/]: Syncing config to jrmu_ev (bbb4f303-012d-31f9-871c-81a2529a03d0)
+[01Aug2025 21:39:05.096] [Server thread/ERROR] [recruits/]: Villager recruits could not check for updates!
+[01Aug2025 21:39:08.104] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:39:24.675] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:39:50.136] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jrmu_ev lost connection: Timed out
+[01Aug2025 21:39:50.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev left the game
+[01Aug2025 21:40:18.188] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jrmu_ev[/127.235.228.202:32935] logged in with entity id 6649 at (669.7366208813222, 86.21338271092877, 320.3724821473505)
+[01Aug2025 21:40:18.194] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player jrmu_ev
+[01Aug2025 21:40:18.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev joined the game
+[01Aug2025 21:40:18.230] [Server thread/INFO] [Jade/]: Syncing config to jrmu_ev (bbb4f303-012d-31f9-871c-81a2529a03d0)
+[01Aug2025 21:40:18.231] [Server thread/ERROR] [recruits/]: Villager recruits could not check for updates!
+[01Aug2025 21:40:20.287] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:40:32.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jrmu_ev was slain by Dread Hound
+[01Aug2025 21:40:34.066] [Server thread/INFO] [do_a_barrel_roll/]: Client of jrmu_ev accepted server config.
+[01Aug2025 21:40:51.531] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:05.380] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:21.380] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:21.382] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:25.631] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:39.130] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[01Aug2025 21:41:39.131] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Index 3 out of bounds for length 3
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/CommandEvent;)V
+		2: NORMAL
+		3: ASM: com.talhanation.recruits.TeamEvents@135af90 onTypeCommandEvent(Lnet/minecraftforge/event/CommandEvent;)V
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.TeamEvents.onTypeCommandEvent(TeamEvents.java:618)
+	at TRANSFORMER/recruits@1.13.5/com.talhanation.recruits.__TeamEvents_onTypeCommandEvent_CommandEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_242674_(Commands.java:249)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.Commands.m_230957_(Commands.java:237)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.execute(IntelligentSpawnsProcedure.java:36)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.IntelligentSpawnsProcedure.onEntitySpawned(IntelligentSpawnsProcedure.java:22)
+	at TRANSFORMER/horde_hoard@1.1.0/net.mcreator.horde_hoard.procedures.__IntelligentSpawnsProcedure_onEntitySpawned_EntityJoinLevelEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157538_(PersistentEntitySectionManager.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157533_(PersistentEntitySectionManager.java:71)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8872_(ServerLevel.java:860)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_7967_(ServerLevel.java:815)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.ServerLevelAccessor.m_47205_(ServerLevelAccessor.java:11)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47038_(NaturalSpawner.java:179)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47045_(NaturalSpawner.java:118)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.NaturalSpawner.m_47029_(NaturalSpawner.java:108)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_8490_(ServerChunkCache.java:358)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
